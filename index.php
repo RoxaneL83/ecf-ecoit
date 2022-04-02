@@ -10,9 +10,10 @@
     <title>Ecoit</title>
 </head>
 <body>
-<header>
-</header>
+    <header>
+        <?php include('header.php'); ?>
 
+    </header>
 
 
     <!-- JavaScript Bundle with Popper -->
