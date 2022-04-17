@@ -9,38 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Ecoit</title>
     <style>
-section {
-  margin: 20px;
-}
-input {
-  outline: none;
-  padding: 6px 20px;
-}
-.input {
-  margin-bottom: 20px;
-}
-input[type="submit"] {
-  outline: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  background-color: #48c;
-  color: #fff;
-  border: none;
-  width: 300px;
-  cursor: pointer;
-}
-input[type="submit"]:hover {
-  background-color: #6ad;
-}
-#erreur {
-  background-color: #8FB43A;
-  color: white;
-  padding: 10px;
-  width: 60%;
-  display: block;
-    margin-left: auto;
-    margin-right: auto 
-} 
+
     </style>
 </head>
 <body>
@@ -76,10 +45,13 @@ input[type="submit"]:hover {
             </div>
             
             <button type="submit" class="btn btn-primary" name="valider" value="Me connecter">Me connecter</button>
-        </form>
+   
+            <div class="text-center">
+              <p>Pas encore inscrit ? <a href="#!">S'inscrire</a></p>
+            </div>
+        
+          </form>
        
-        
-        
     </section>
 
       <div class="row d-inline justify-content-center">
@@ -104,7 +76,11 @@ input[type="submit"]:hover {
 
 
 
+<form>
 
+
+  
+</form>
 
 
        
